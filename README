@@ -1,0 +1,17 @@
+the shell is done in 6 files
+1.main.c
+it is used for input formatting and small functions like pwd and echo are 
+implemented in this itself
+2.process.c
+it contains background foreground and backhandler which checks the terminated 
+background process
+3.jobs.c
+it contains functions related to linked list i created for storing jobs
+4.prompt.c
+it contains prompt function and functions related to fg bg and sig command
+and standard output and input rediretion functions
+5.sighan.c
+it contains ctrlz and ctrlc handlers and jobs printing functions
+6.cd.c
+it contains cd related functions
+
